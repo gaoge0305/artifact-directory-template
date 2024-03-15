@@ -1,5 +1,5 @@
 Title:
-<MY SUPER AWESOME PROJECT TITLE>
+Optimizing LLaVA: Measuring Mistral Against LLaMA for Visual Instruction Tuning
 
 Abstract:
-<MY SUPER AWESOME PROJECT ABSTRACT>
+Large Language Models (LLMs) have gone from relative obscurity to ubiquitous application in just a few years. Recently, they have demonstrated remarkable ability to generalize to downstream tasks, including visual modality. Our group has modified the Large Language-and-Vision Assistant (LLaVA) to use Mistral as a language model rather than LLaMA. Doing so allows LLaVA to be run at a significant computational discount, reducing model size by 46 percent, while maintaining comparable results. We attribute this improvement to Mistral's advancements in flash attention through sliding-window and grouped query attention. In addition, we provide two subsets of the ScienceQA dataset, reducing the training set from 12726 prompts to 1000 of the most educating through hand-selection and maximization of L2 distance between hidden state representations. Unfortunately, our final performance does not show a significant improvement as opposed to the pertaining stage. However, further exploration into the fine-tuning pipeline should show significant improvement. In the future, we intend to explore further modifications to the LLM training as well as to the visual encoder.
